@@ -1,0 +1,93 @@
+.additional {
+    border:solid;
+    border-width: thin;
+}
+
+textarea {
+    min-height: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.email {
+    border:solid;
+    border-width: thin;
+    margin: 2px ;   
+    margin-right: 20px;   
+    padding:7px ;
+}
+
+.read {
+    background-color: rgba(133, 129, 129, 0.232);
+}
+
+.not_read {
+    background-color:white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.timestamp {
+    text-align: right;
+    color: rgb(113, 110, 110);
+}
+
+.overflow {
+    overflow:auto;
+}
+
+.height1 {
+    height: 450px;
+}
+
+.height2 {
+    height: 380px;
+}
+.wrap {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+}
+
+.message {
+    position:absolute;
+    left: 30%;
+    top: 70%;
+    width: 350px;
+    height: 100px;
+    z-index: 1;
+    border: solid;
+    border-radius: 15px;
+    /*line-height:100px ;
+    text-align: center;*/
+    background-color: gold;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success {
+    color:green ;
+}
+
+.fail {
+    color: red;
+}
+
+#compose-submit:hover {
+    background-color: rgb(4, 4, 42);
+}
+
+#message_text {
+    text-align: center;
+    width: 80%;
+    border-radius: 15px;
+}
+
+#message_text:hover {
+    background-color: #ebc552;
+}
